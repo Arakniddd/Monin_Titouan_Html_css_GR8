@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: green;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  nav ul {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 2em;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  footer {
+    background-color: green;
+    color:white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+  
+  .contacte{
+    text-align: center;
+    max-width: 60em;
+    margin: 0 auto;
+    color:green;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 1em;
+    
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 2em;
+    padding: 1em;
+  }
+  
+  button {
+    padding: 1em;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: greenyellow;
+  }
+   
+
+
